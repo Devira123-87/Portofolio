@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Devira Nurianti | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="logo">Portofolio Devira Nurianti</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Creative Multimedia Student</h1>
+            <p>Design • UI/UX • Video Editing • Multimedia • Frontend Development</p>
+        </div>
+
+        <div class="hero-photo">
+            <img src="images/image.png" alt="Foto Devira" style="height: 300px;">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        Saya adalah lulusan SMK Teknik Komputer dan Jaringan yang saat ini menempuh pendidikan sebagai mahasiswa aktif Program Studi Teknologi Rekayasa Multimedia. Memiliki ketertarikan yang kuat pada bidang desain visual, UI/UX, fotografi, dan editing video, serta selalu bersemangat untuk belajar teknologi dan tren terbaru di dunia multimedia. Terbiasa mengerjakan proyek multimedia berbasis desain dan digital, mulai dari konsep, produksi, hingga hasil akhir yang siap ditampilkan. Saya juga memiliki kemampuan berkolaborasi dalam tim, menyelesaikan proyek sesuai deadline, dan menghadirkan solusi kreatif yang dapat meningkatkan kualitas visual dan pengalaman pengguna.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section light">
+    <h2>Skill & Tools</h2>
+    <div class="skills-grid">
+        <div class="skill-box">Graphic Design</div>
+        <div class="skill-box">UI/UX Design</div>
+        <div class="skill-box">Video Editing</div>
+        <div class="skill-box">HTML & CSS (Basic)</div>
+        <div class="skill-box">Canva</div>
+        <div class="skill-box">Figma</div>
+        <div class="skill-box">Unity</div>
+        <div class="skill-box">Adobe Photoshop</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/image (1).png" alt="">
+            </div>
+            <h3>EDITOR UNITY VIRTUAL TOUR MUSEUM PETA</h3>
+            <div class="project-detail">
+                <div class="detail-images">
+                    <img src="images/image (1).png" alt="">
+                    <img src="images/vitual.jpg" alt="">
+                </div>
+                <p>
+                    Proyek pembuatan virtual tour 360° menggunakan Unity untuk menampilkan
+                    lingkungan Museum PETA secara interaktif.
+                </p>
+            </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/repsol.jpeg" alt="">
+            </div>
+            <h3>VIDEO EDITOR DOKUMENTASI ACARA REPSOL</h3>
+            <div class="project-detail">
+                <div class="detail-images portrait">
+                    <img src="images/1.jpg" alt="">
+                    <img src="images/2.jpg" alt="">
+                    <img src="images/3.jpg" alt="">
+                </div>
+                <p>
+                    Editing video dokumentasi acara Repsol sebagai bagian dari tim media
+                    untuk menghasilkan video yang informatif dan rapi.
+                </p>
+            </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/logo.png" alt="">
+            </div>
+            <h3>LOGO ANIMATION UNTUK OBS</h3>
+            <div class="project-detail">
+                <div class="detail-images">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <p>
+                    Membuat animasi logo untuk kebutuhan streaming OBS menggunakan motion graphic.
+                </p>
+            </div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/image (2).png" alt="">
+            </div>
+            <h3>POSTER PROFIL TOKOH (RAFFI AHMAD)</h3>
+            <div class="project-detail">
+                <div class="detail-images portrait">
+                    <img src="images/image (2).png" alt="">
+                </div>
+                <p>
+                    Proyek pembuatan poster profil tokoh publik yang bertConfirm fokus pada penyampaian informasi dan personal branding.
+                </p>
+            </div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/logo 2.png" alt="">
+            </div>
+            <h3>PEMBUATAN LOGO</h3>
+            <div class="project-detail">
+                <div class="detail-images">
+                    <img src="images/logo 2.png" alt="">
+                </div>
+                <p>
+                    Desain logo brand multimedia dengan konsep modern dan minimalis.
+            </div>
+        </div>
+
+        <!-- PROJECT 6 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/image (3).png" alt="">
+            </div>
+            <h3>UI/UX DESIGN APLIKASI EDUKASI "MARBUN"</h3>
+            <div class="project-detail">
+                <div class="detail-images">
+                    <img src="images/image (3).png" alt="">
+                    <img src="images/ke 2.png" alt="">
+                    <img src="images/ke3.png" alt="">
+                    <img src="images/ke4.png" alt="">
+                </div>
+                <p>
+                    Mendesain UI/UX aplikasi edukasi dengan pendekatan user-centered design.
+                </p>
+            </div>
+        </div>
+
+        <!-- PROJECT 7 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/dev.png" alt="">
+            </div>
+            <h3>PERSONAL PORTFOLIO WEBSITE</h3>
+            <div class="project-detail">
+                <div class="detail-images kartu-landscape">
+                    <img src="images/dev.png" alt="Kartu Nama Depan">
+                    <img src="images/dev 2.png" alt="Kartu Nama Depan">
+                    <img src="images/dev 3.png" alt="Kartu Nama Depan">
+                    <img src="images/dev 4.png" alt="Kartu Nama Depan">
+                </div>
+                <p>
+                    Membangun website portfolio menggunakan HTML, CSS, dan JavaScript
+                    dengan desain modern dan responsif.
+                </p>
+            </div>
+        </div>
+
+        <!-- PROJECT 8 -->
+        <div class="project-card" onclick="toggleProject(this)">
+            <div class="project-image">
+                <img src="images/kartun nama.png" alt="">
+            </div>
+            <h3>PEMBUATAN KARTU NAMA</h3>
+            <div class="project-detail">
+                <div class="detail-images kartu-landscape">
+                    <img src="images/kartun nama.png" alt="Kartu Nama Depan">
+                </div>
+                <p>
+                    Mendesain kartu nama dengan kombinasi visual, tipografi,
+                    dan warna yang menarik.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+    <h2>Contact</h2>
+
+    <p>
+        📧 Email: 
+        <a href="mailto:deviranurianti3@gmail.com" class="contact-link">
+            deviranurianti3@gmail.com
+        </a>
+    </p>
+
+    <p>
+        📱 WhatsApp: 
+        <a href="https://wa.me/62895321515286" target="_blank" class="contact-link">
+            0895-3215-15286
+        </a>
+    </p>
+
+    <p>
+        🌐 Portfolio:
+        <a href="#" class="contact-link">
+            www.devinur.com
+        </a>
+    </p>
+
+</section>
+
+<script>
+function toggleProject(card) {
+    document.querySelectorAll('.project-card').forEach(item => {
+        if (item !== card) {
+            item.classList.remove('active');
+        }
+    });
+    card.classList.toggle('active');
+}
+
+</script>
+
+</body>
+</html>
